@@ -16,9 +16,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/components/swiper.css">
-    <link rel="stylesheet" href="css/components/font-awesome.css"> </head>
+    <link rel="stylesheet" href="css/components/font-awesome.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
 
 <body>
     <header>
@@ -93,15 +93,28 @@
             </div>
         </div>
     </header>
-    <section class="uk-margin-large-bottom uk-margin-medium-top">
+    <section id="pagetitle-container">
         <div class="uk-container">
-            <div class="uk-grid uk-margin-medium-top">
-                <div class="uk-width-1-1 uk-margin-medium-bottom">
-                    <img src="images/1p_2p_3p_logo.png" alt="1P 2P 3P Logo">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <ul class="uk-breadcrumb uk-margin-top uk-float-left">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Disclaimers</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>   
+    </section>
+    <section class="uk-margin-large-bottom">
+        <div class="uk-container">
+            <div class="uk-grid uk-margin-medium-top">
+                <div class="uk-width-1-1 uk-margin-medium-bottom">
+                    <h2>Disclaimers</h2>
+                    <p class="uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="uk-container uk-light">
             <div class="uk-grid uk-margin-large-top">
@@ -155,7 +168,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
-    <script src="js/components/mediaelement.js"></script>    
     <script src="js/config.js"></script>
 </body>
 

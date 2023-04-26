@@ -30,9 +30,9 @@
                 //----------- 1. Map Configuration ----------- 
                 var map = new GMaps({
                     el: '#map',
-                    lat: 18.999778,
-                    lng: 72.816936,
-                    zoom: 14,
+                    lat: 19.009278,
+                    lng: 72.819879,
+                    zoom: 17,
                     zoomControl: false,
                     zoomControlOpt: {
                         style: 'SMALL',
@@ -45,8 +45,8 @@
                 });
 
                 map.addMarker({
-                    lat: 18.999778,
-                    lng: 72.816936,
+                    lat: 19.009278,
+                    lng: 72.819879,
                     icon: template_url + "images/map_marker.png"
                 });
 
