@@ -503,7 +503,19 @@ header.idz-header-alt .uk-navbar-right > ul li > a.uk-open {
     font-weight: 300;
     font-size: 18px;
     line-height: 28px;
-    color: #788084;
+    color: #3d4041;
+}
+
+.uk-text-normal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    color: rgb(38, 38, 38);
+}
+
+.uk-text-aligned{
+    text-align: justify;
 }
 
 .uk-text-small {
