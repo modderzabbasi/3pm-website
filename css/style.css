@@ -346,10 +346,10 @@ header .uk-navbar-nav > li .uk-navbar-dropdown ul li:hover i {
 
 .uk-sticky .uk-navbar-left:before,
 .uk-sticky2 .uk-navbar-right:before {
-    width: 70px;
-    height: 70px;
-    background:#fff url(../images/3p_logo_alt.png) center center no-repeat;
-    background-size: 80px 60px;
+    width: 125px;
+    height: 125px;
+    background:#fff url(../images/3p_logo.png) center center no-repeat;
+    background-size: 100px 75px;
     content: "";
 }
 
