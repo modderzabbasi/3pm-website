@@ -247,7 +247,7 @@ header .phone-number h4{
 
 #pagetitle-container {
     height: 66px;
-    background: #eaeaea;
+    background: #346FB5;
 }
 
 /* [ 1.4. mainmenu ] */
@@ -713,6 +713,25 @@ header.idz-header-alt .uk-navbar-right > ul li > a.uk-open {
 /* [ 2.8. uikit breadcrumb ] */
 .uk-breadcrumb > :nth-child(n+2):not(.uk-first-column)::before {
     margin: 0 12px;
+}
+
+.uk-breadcrumb>*>* {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.uk-breadcrumb>:nth-child(n+2):not(.uk-first-column)::before {
+    color: #FFFFFF;
+}
+
+.uk-breadcrumb>:last-child>* {
+    color: #EAEAEA;
+    font-weight: 500;
+}
+
+.uk-breadcrumb>*>:focus, .uk-breadcrumb>*>:hover {
+    color: #CCC !important;
+    text-decoration: none;
 }
 
 /* [ 2.9. uikit accordion ] */
